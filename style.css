@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{background-image: url(./keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    background-color: #f9f9f9;
+    font: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{box-shadow: 5px 5px 5px rgb(41, 41, 41) ;
+    color:rgba(169, 169, 169, 0.559) ;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container{
+    box-shadow: 5px 5px 5px rgb(41, 41, 41) ;
+    align-items: flex-start;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+.right,#radio{
+    padding: 10px;
+}
+.left{
+    display: inline-block;
+    padding: 10px;
+}
+.right{
+    width: 200px;
+    margin-bottom: 10px;
+}
+#age-label{
+    padding-right: 33px;
+}
+#height-label{
+    padding-right: 14px;
+}
+#radio{
+    margin-bottom: 10px;
+}
+#calculate{
+    margin-left: 82px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-color: none;
+    color: black;
+}
+#calculate:hover{
+    background: #6a686860;
+}
+#clear:hover{
+    background: #6a686860;
+}
+#clear{
+    border: 1px solid black;
+    background-color: transparent;
+}
+#result{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: green;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff;
+}
